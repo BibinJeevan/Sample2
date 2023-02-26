@@ -1,0 +1,13 @@
+a=['abxd','xyz']
+print("min=",min(a))
+print("max=",max(a))
+print("Length=",len(a))
+print("count of xyz=",a.count('xyz'))
+a.insert(1,'feg')
+print("Added=",a)
+a.remove('xyz')
+print("Removed=",a)
+a.reverse()
+print("Reversed=",a)
+a.sort()
+print("Sorted=",a)
